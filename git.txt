@@ -3,4 +3,13 @@ ssh-keygen -t rsa -C "zhangxiaoyang@menco.cn"
 https://github.com/XiaoyZhang/XiaoyangZhang.git
 
 git remote add origin https://github.com/XiaoyZhang/XiaoyangZhang.git
+git remote add myorigin https://github.com/XiaoyZhang/XiaoyangZhang.git
+
+git remote set-url origin https://github.com/XiaoyZhang/XiaoyangZhang.git
+git remote -v
+git remote rm myorigin
 git push -u origin master
+git push -u myorigin master
+
+修改后的文件提交：
+git commit -a -m "change git.txt file"
