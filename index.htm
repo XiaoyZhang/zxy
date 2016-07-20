@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>this is my title</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="zxy.css">
+		<script type="text/javascript" src="zxy.js"></script>
+	</head>
+
+	<body>
+		<form id="myform" action="show.htm" method="post" onsubmit="validate()">
+			请输入邮箱地址：
+			<input type="text" name="email" id="email" class="init" onblur="validateEmail()">
+			<span name="emailMsg" id="emailMsg"></span>
+			<br>
+			<button type="submit">显示内容</button>
+		</form>
+	</body>
+</html>

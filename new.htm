@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Demo</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var xmlHttpRequest;
+		function createXmlHttpRequest() {
+			if (window.XMLHttpRequest) { //此时对应的是FireFox内核的浏览器
+				xmlHttpRequest = new XMLHttpRequest();
+			} else { //如果是微软的IE浏览器内核
+				xmlHttpRequest = new ActiveXObjective("Microsoft.XMLHttp");
+			}
+		}
+		createXmlHttpRequest();
+	</script>
+</head>
+<body>
+
+</body>
+</html>

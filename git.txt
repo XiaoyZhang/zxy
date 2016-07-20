@@ -1,0 +1,6 @@
+ssh-keygen -t rsa -C "zhangxiaoyang@menco.cn"
+
+https://github.com/XiaoyZhang/XiaoyangZhang.git
+
+git remote add origin https://github.com/XiaoyZhang/XiaoyangZhang.git
+git push -u origin master
